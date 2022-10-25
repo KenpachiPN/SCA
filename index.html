@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------ ICONS -------------->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+
+    <!------------ CSS -------------->
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>SCA</title>
+
+    <!------------ JS -------------->
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="">
+                    <h2 class="title"> SCA </h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <i class="uil uil-times"></i>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <i class="uil uil-dashboard"></i>
+                    <h3>Inicio</h3>
+                </a>
+
+                <a href="#" class="active">
+                    <i class="uil uil-user"></i>
+                    <h3>Perfil</h3>
+                </a>
+
+                <a href="#">
+                    <i class="uil uil-receipt"></i>
+                    <h3>Orders</h3>
+                </a>
+
+                <a href="#">
+                    <i class="uil uil-analysis"></i>
+                    <h3>Analytics</h3>
+                </a>
+
+                <a href="#">
+                    <i class="uil uil-envelope-question"></i>
+                    <h3>Mensajes</h3>
+                    <span class="message-count">26</span>
+                </a>
+
+                <a href="#">
+                    <i class="uil uil-table"></i>
+                    <h3>Productos</h3>
+                </a>
+
+                <a href="#">
+                    <i class="uil uil-exclamation-octagon"></i>
+                    <h3>Reportes</h3>
+                </a>
+
+                <a href="#">
+                    <i class="uil uil-setting"></i>
+                    <h3>Configuraciones</h3>
+                </a>
+
+                <a href="#">
+                    <i class="uil uil-plus"></i>
+                    <h3>Agregar productos</h3>
+                </a>
+
+                <a href="#">
+                    <i class="uil uil-signout"></i>
+                    <h3>Salir</h3>
+                </a>
+            </div>
+        </aside>
+        <!--------- END OF ASIDE ------>
+        <main>
+            <h1>Inicio</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+
+            <div class="insights">
+                <div class="sales">
+                    <i class="uil uil-chart"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3 class="title-insights">Total sales</h3>
+                            <h1>$25,024</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours </small>
+                </div>
+                <!--------- END OF SALES ------>
+                <div class="expenses">
+                    <i class="uil uil-chart-bar"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3 class="title-insights">Total Expenses</h3>
+                            <h1>$14,160</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>62%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours </small>
+                </div>
+                <!--------- END OF EXPENSES ------>
+                <div class="income">
+                    <i class="uil uil-comparison"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3 class="title-insights">Total Income</h3>
+                            <h1>$10,864</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>44%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours </small>
+                </div>
+                <!--------- END OF INCOME ------>
+            </div>
+            <!--------- END OF INSIGHTS ------>
+
+            <!--------- RECENT ORDERS ------>
+            <div class="recent-orders">
+                <h2 class="title-recent">Recent Orders</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Prodcut Name</th>
+                            <th>Prodcut Number</th>
+                            <th>Payment</th>
+                            <th>Status </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>85631</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>85631</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>85631</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>85631</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>Foldable Mini Drone</td>
+                            <td>85631</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+        </main>
+    </div>
+    <div class="right">
+        <div class="top">
+            <button id="menu-btn">
+            </button>
+        </div>
+    </div>
+</body>
+</html>
